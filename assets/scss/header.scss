@@ -1,0 +1,40 @@
+#layout-header{
+  
+        width: 100%;
+        height: 60px;
+        background-color: blueviolet;
+        color: white;
+       #social{
+       
+       
+       display: inline-flex;
+            #welcome-msg{
+                margin-top: 9px;
+                position: absolute;
+                font-weight: 800;
+                font-size: 20px;
+                         }
+                         li {
+
+                          
+                             position: absolute;
+                             margin-left: 90%;
+                             list-style: none;
+                             padding: 10px;
+                             
+                             #uname{
+                                margin-left:-75px;
+                                color: white;
+                                text-decoration: none;
+                             }
+                             #sign-out{
+                                margin-left: 10px;
+                                color: white;
+                                text-decoration: none;
+                             }
+                           
+                         }
+       
+       }
+      
+}

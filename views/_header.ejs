@@ -1,0 +1,22 @@
+<% if (locals.user){ %>
+<header id="layout-header">
+    <nav>
+        <div class="auth-links">
+            <ul id="social">
+                <% if (locals.user){ %>
+                    <p id="welcome-msg">Hello <%= user.name %> !!</p>
+                    <li>
+                        <a id="uname" href="/users/profile/<%= user._id %>">
+                            <%= user.name %>
+                        </a>
+                    </li>
+                    <li>
+                        <a id="sign-out" href="/users/sign-out">Sign Out</a>
+                    </li>
+                    
+                    <% }%>
+            </ul>
+        
+    </nav>
+</header>
+<% }%>

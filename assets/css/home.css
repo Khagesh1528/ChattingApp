@@ -1,0 +1,40 @@
+#home-container {
+  width: 100%;
+  height: 70%;
+  display: block; }
+  #home-container #logo {
+    margin-top: 2%;
+    border-radius: 77px;
+    margin-left: 3%; }
+  #home-container #logo-section {
+    margin-left: 8%;
+    width: 60%;
+    height: inherit; }
+    #home-container #logo-section #logo-name {
+      font-weight: 1000;
+      color: orange; }
+    #home-container #logo-section #des {
+      font-style: italic;
+      font-weight: 100;
+      font-size: 17px; }
+  #home-container #form-section {
+    width: 30%;
+    height: 250px;
+    margin-top: -37%;
+    margin-left: 70%;
+    border-radius: 10px; }
+    #home-container #form-section input {
+      position: relative;
+      margin-left: 2%;
+      width: 350px; }
+    #home-container #form-section #forgot-btn {
+      margin-left: 4%; }
+      #home-container #form-section #forgot-btn a {
+        text-decoration: none;
+        color: black; }
+    #home-container #form-section #sign-up-btn {
+      margin-left: 8%;
+      width: 150px; }
+      #home-container #form-section #sign-up-btn a {
+        text-decoration: none;
+        color: whitesmoke; }
